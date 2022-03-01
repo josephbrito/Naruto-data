@@ -1,0 +1,24 @@
+.person_container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.person_data p {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.person_data p span {
+  font-weight: bold;
+}
+
+.person_data a {
+  padding: 10px;
+  background: #f2a30b;
+  border-radius: 10px;
+}

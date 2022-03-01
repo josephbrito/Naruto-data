@@ -1,0 +1,29 @@
+.header {
+  height: 10vh;
+  background: #0b0b0b;
+  padding: 0 2em;
+  color: white;
+  font-size: Helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f2a30b;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1.5em;
+}
+
+.nav_list li a {
+  color: white;
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+
+.nav_list li a:hover {
+  color: #f2a30b;
+  border-bottom: 1px solid #f2a30b;
+}

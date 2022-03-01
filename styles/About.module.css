@@ -1,0 +1,15 @@
+.about_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_container p {
+  max-width: 550px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0 auto;
+}

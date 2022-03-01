@@ -1,0 +1,14 @@
+.err {
+  height: 80vh;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.err span {
+  color: #f2a30b;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid #fbe407;
+}
+
+.character_name {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button a {
+  padding: 0.5em;
+  background: #0c2fdf;
+  color: white;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.button a:hover {
+  color: #0c2fdf;
+  background: none;
+  border: 1px solid #0c2fdf;
+}
